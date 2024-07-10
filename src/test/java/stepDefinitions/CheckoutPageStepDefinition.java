@@ -25,6 +25,8 @@ public class CheckoutPageStepDefinition {
 	public void verify_user_has_ability_to_enter_promo_code_and_place_the_order() {
 		Assert.assertTrue(checkOutPage.verifyPromoButton());
 		Assert.assertTrue(checkOutPage.verifyPlaceOrderButton());
+		System.out.println("postJira1");
+		System.out.println("postJira1");
 		
 	}
 	
